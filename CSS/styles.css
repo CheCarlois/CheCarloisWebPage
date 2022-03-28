@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #D4ECDD;
+}
+
+h1 {
+    margin: 10px auto 0 auto;  /* 1rem = 16px = 100% */
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625rem;
+    color: #D49B54;
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #D49B54;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+a {
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #152D35;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud {
+    width: 130px;
+    height:100px;
+    position: absolute;
+    top: 5px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    left: 200px;
+    bottom: 500px;
+}
+
+.top-img {
+    width: 550px;
+    margin-top: 10px;
+
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container {
+    background-color: #203239;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 175px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.web-img {
+    width: 70%;
+    float: left;
+    margin-right: -160px;
+}
+
+.design-img {
+    width: 50%;
+    float: right;
+    margin-left: -60px;
+}
+
+.contact-me {
+    padding-bottom: 80px;
+}
+
+.contact-me-massage {
+    width: 40%;
+    margin: 40px auto;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #112031;
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    color: #D4ECDD;
+}
+
+.btn:hover {
+    color: #11999e;
+    background-color: #D4ECDD;
+    transition: 0.5s all;
+}
+
+.bottom-container {
+    background-color: #112031;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+hr {
+    border: none;
+    border-top: 4px dotted gray;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-name {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1097px) {
+    .top-cloud {
+        right: 200px;
+    }
+
+    .bottom-cloud {
+        top: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .top-cloud {
+        right: 10px;
+    }
+
+    .bottom-cloud {
+        left: 10px
+    }
+
+    .intro {
+        width: 50%;
+    }
+
+    .contact-me-massage {
+        width: 60%;
+    }
+
+    .top-img {
+        width: 300px;
+    }
+}
